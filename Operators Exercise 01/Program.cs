@@ -14,72 +14,91 @@ namespace Operators_Exercise_01
             // TODO: Add 20 to x and 60 to y, print them out to the console, then AddSpace()
             x += 20;
             y += 60;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 30 ?
+            // TODO: y = 80 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // TODO: Subtract 10 from x and 70 from y, print them out to the console, then AddSpace()
             x -= 10;
             y -= 70;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 20 ?
+            // TODO: y = 10 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // TODO: Multiply x by 3 and y by 2, print them out to the console, then AddSpace()
             x *= 3;
             y *= 2;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 60 ?
+            // TODO: y = 20 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // TODO: Divide x by 6 and y by 1, print them out to the console, then AddSpace()
             x /= 6;
             y /= 1;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 10 ?
+            // TODO: y = 20?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // TODO: Modulus x by 3 and y by 3, print them out to the console, then AddSpace()
             x %= 2;
             y %= 2;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 0 ?
+            // TODO: y = 0 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // TODO: Pre-increment x and y, print them out to the console, then AddSpace()
             ++x;
             y++;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 1 ?
+            // TODO: y = 1 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // Thought Experiment: What will the value of x and y be after going through this pre/post increment operation?
             x = ++x;
             y = y++;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 2 ?
+            // TODO: y = 1 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // Thought Experiment: What will the value of x and y be after going thought the pre/post increment again, only slightly changed up a bit?
             x++;
             ++y;
-            // TODO: x = ?
-            // TODO: y = ?
+            // TODO: x = 3 ?
+            // TODO: y = 2 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
 
             AddSpace();
 
             // Thought Experiment: What will be the value of x,y,and z that is written to the console?
             int z = --y + ++x;
-            // TODO: x = ?
-            // TODO: y = ?
-            // TODO: z = ?
+            // TODO: x = 4 ?
+            // TODO: y = 1 ?
+            // TODO: z = 5 ?
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
 
             AddSpace();
 
@@ -96,37 +115,37 @@ namespace Operators_Exercise_01
 
             // What is the value of the variable conditionalValue after the == operator?
             conditionalValue = first == second;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue after the != operator?
             conditionalValue = first != second;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue =  false ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue after the > operator?
             conditionalValue = a > b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = false ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue after the < operator?
             conditionalValue = a < b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue after the >= operator?
             conditionalValue = a >= b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = false ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue after the <= operator?
             conditionalValue = a <= b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
@@ -136,13 +155,13 @@ namespace Operators_Exercise_01
 
             // What is the value of the variable conditionalValue with the logical operator
             conditionalValue = a < b && ++a == b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
             // What is the value of the variable conditionalValue with the logical operator
             conditionalValue = a++ == b || first == second;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
@@ -150,7 +169,7 @@ namespace Operators_Exercise_01
             second = true;
             // What is the value of the variable conditionalValue with the logical operator
             conditionalValue = !second == first && a >= --b;
-            // TODO: conditionalValue = ?
+            // TODO: conditionalValue = true ?
 
             AddSpace();
 
@@ -164,37 +183,37 @@ namespace Operators_Exercise_01
 
             // TODO: use the Simple Assignment operator to add var1 and var2 and then assign the sum to the total variable
             total = var1 + var2;
-            // TODO: total = ?
+            // TODO: total = 13.75 ?
 
             AddSpace();
 
             // TODO: What's the result doing the same operation, but replacing the Simple Assignment operator with the Add Assignment operator?
             total += var1 + var2;
-            // TODO: total = ?
+            // TODO: total = 27.5 ?
 
             AddSpace();
 
             // TODO: use the Subtract Assignment operator to subtract total from var1 
             total -= var1;
-            // TODO: total = ?
+            // TODO: total = 17 ?
 
             AddSpace();
 
             // TODO: use the Multiply Assignment operator to multiply total by var2
             total *= var2;
-            // TODO: total = ?
+            // TODO: total = 55.25 ?
 
             AddSpace();
 
             // TODO: use the Division Assignment operator to divide total by 5
             total /= 5;
-            // TODO: total = ?
+            // TODO: total = 11.05 ?
 
             AddSpace();
 
             // TODO: use the Modulus Assignment operator to modulo the total by 11.05
             total %= 11.05;
-            // TODO: total = ?
+            // TODO: total = 0 ?
 
             AddSpace();
 
@@ -220,7 +239,7 @@ namespace Operators_Exercise_01
             }
             */
             finalString = finalString.Length == 0 ? str1 : str2;
-            // TODO: finalString = ?
+            // TODO: finalString = "String 1" ?
 
             AddSpace();
 
@@ -236,13 +255,14 @@ namespace Operators_Exercise_01
             }
             */
             intTotal = int1 + int2 > intTotal ? int1 + int2 : int1 - int2;
-            // TODO: intTotal = ?
+
+            // TODO: intTotal = 3 ?
 
             AddSpace();
 
             // Thought Experiment: What will be the value of finalString after the Ternary operation?
             finalString = finalString != null && finalString.Length != 0 ? str1[7].ToString() : str2[7].ToString();
-            // TODO: finalString = ?
+            // TODO: finalString = 1 ?
 
             // BONUS
             // Thought Experiment: What will be the value of finalString after the Ternary operation?
